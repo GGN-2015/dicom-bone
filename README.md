@@ -18,4 +18,4 @@ arr = dicom_bone.get_bone_point_cloud_from_dicom_folder("PATH_TO_DICOM_FOLDER", 
 dicom_bone.visualize_simplified_point_cloud(arr)
 ```
 
-`max_point_count` 可以控制生成点云的最大点数目。
+`max_point_count` 可以控制生成点云的最大点数目, `None` 表示没有限制。
