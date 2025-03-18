@@ -17,18 +17,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
-[project.urls]
-"Homepage" = "https://github.com/GGN_2015/dicom_bone"
-"Bug Tracker" = "https://github.com/GGN_2015/dicom_bone/issues"
-
-[project.dependencies]
-pydicom = ">=3.0.1"
-SimpleITK = ">=2.4.1"
-numpy = ">=2.2.3"
-scikit-image = ">=0.25.2"
-tqdm = ">=4.67.1"
-vtk = ">=9.3.1"
+dependencies = [
+    "pydicom>=3.0.1",
+    "SimpleITK>=2.4.1",
+    "numpy>=2.2.3",
+    "scikit-image>=0.25.2",
+    "tqdm>=4.67.1",
+    "vtk>=9.3.1"
+]
 
 [tool.setuptools]
 packages = ["dicom_bone"]
