@@ -32,6 +32,3 @@ vtk = ">=9.3.1"
 
 [tool.setuptools]
 packages = ["dicom_bone"]
-
-[tool.setuptools.package-data]
-dicom_bone = ["*.txt"]    
